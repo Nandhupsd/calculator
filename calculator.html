@@ -1,0 +1,60 @@
+<!doctype HTML>
+<html>
+<head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="CALC.css">
+    </head>
+    <body>
+  <script>
+    function number(x){
+      var n=x
+      document.getElementById("area").innerHTML=n;
+    }
+  function operation(y)
+{
+   var x=document.getElementById("op1").value;
+   var z=document.getElementById("op2").value;
+    if(y==0)
+      {
+        var n= x-z;
+        document.getElementById("area").innerHTML=n;
+      }
+      if(y==1)
+      {
+        var n= x*z;
+        document.getElementById("area").innerHTML=n;
+      }
+      if(y==2)
+      {
+        var n= x/z;
+        document.getElementById("area").innerHTML=n;
+      }
+      if(y==3)
+      {
+        var n= x-z;
+        document.getElementById("area").innerHTML=n;
+      }
+         
+      if(y==4)
+      {
+        var n= x%z;
+        document.getElementById("area").innerHTML=n;
+      }
+
+}
+  </script>
+
+<nav>
+<h1>CALCULATOR</h1>
+</nav>
+   
+    <input type="number" id="op1" maxlength="15" type="number" placeholder="ENTER ONLY NUMBER)" ></input>><br>
+    <input type="number" id="op2" maxlength="15" type="numebr" placeholder="ENTER ONLY NUMBER"></input>><br>
+    <textarea  id="area"  placeholder="answer" readonly></textarea><br>
+    <button id="min" onclick=operation(0)>-</button>
+    <button id="mul"      onclick=operation(1) >*</button>
+    <button  id="divi"      onclick=operation(2)>/</button>
+    <button    id="rem"   onclick=operation(4)>%</button>
+    </body>
+    </html>
+

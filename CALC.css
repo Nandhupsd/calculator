@@ -1,0 +1,76 @@
+
+
+body{
+
+    
+background-color:black;
+
+
+
+}
+#op1{
+    margin-top:50px;
+
+
+}
+#op2{
+    margin-top:-15px;
+
+
+}
+
+
+
+input{
+    height:50px;
+    width:200px;
+    margin-left:500px;
+    color: black;
+    background-color:whitesmoke;
+    text-decoration: beige;
+  ;
+}
+#op1 {
+    margin-top: 250px;
+   
+}
+textarea{
+    resize: none;
+    margin-left:500px;
+    margin-top:25px;
+    size:10px;
+    height:25px;
+    width:180px;
+}
+
+#min{
+   
+   margin-left:500px;
+}
+#min,#mul,#divi,#rem{
+     background-color: rgb(240, 239, 239);
+    height:40px;
+    width:40px
+   
+}
+nav{
+     background-color:rgb(83, 83, 83);
+     height:50px;
+
+}
+h1{
+     margin-top:20px;
+     padding-top:8px;
+     font-family: fantasy;
+     color: aliceblue;
+     
+}
+
+H2{
+    color: antiquewhite;
+    font-family: fantasy;
+    MARGIN-TOP:300PX;
+}
+
+
+
